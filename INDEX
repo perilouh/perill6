@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>peril site!</title>
+    <meta name="description" content="perilsite perilsite YAY">
+<style>
+body{
+  font-family: Arial, sans-serif;
+  background-color: #1D1D2F;
+}
+a{
+	color: #dddae3;
+}
+a:visted{
+  color: #dddae3;
+  text-decoration: underline;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+#prof{
+  border: 3px solid #dddae3;
+  padding: 10px;
+  width: 55vw; height: 60%;
+  margin-top: 70px;
+  overflow: auto;
+  max-width: 950px; max-height: 730px;
+  min-width: 530px; min-height: 100px;
+}
+#content{
+  border: 3px solid #dddae3;
+  padding: 10px;
+  height: 60%;
+  margin-top: 35px;
+  overflow: auto;
+   max-height: 567px;
+  min-width: 430px;
+}
+.header img {
+  float: left;
+  width: 100px;
+  height: 100px;
+  background: #555;
+  overflow: auto;
+}
+.header h1 {
+  position: relative;
+  top: 18px;
+  left: 10px;
+  color: white;
+  overflow: auto;
+}
+.header p {
+  position: relative;
+  top: 0.5px;
+  left: 10px;
+  overflow: auto;
+}
+p, b, i, h1, h2, h3, h4, ul, li{
+  color: #dddae3;
+  }
+hr.solid {
+  border-top: 4px solid #dddae3;
+}
+
+</style>
+</head>
+<body>
+    <div class="container">
+    <div id="prof">
+    <div class="header">
+    <img src="/images/wahwah.png" width="90px">
+    <h1 style="color:#dddae3">perill6</h1>
+    <p>epic sauce</p>   
+</div>
+<div></div>
+    <div id="content">
+    <center>
+    	<p>new layout eventually i hate css heart emoji</p>
+    </center>
+    </div>
+    </div>
+    </div>
+</body>
+</html>
