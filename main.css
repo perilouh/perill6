@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+@font-face {
+   font-family: 'Figtree';
+   src: url(https://perill6.nekoweb.org/font/Figtree-Medium.ttf) format('ttf');
+}
+
+body{
+  font-family: 'Figtree', serif;
+  box-sizing: border-box;
+  background-color: #11111b;
+  justify-content: center;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  }
+#bleh{
+  border: 3px solid #7f849c;
+  padding: 10px;
+  width: 35vw; height: 60%;
+  margin-top: 90px;
+  overflow: auto;
+  max-width: 950px; max-height: 510px;
+  min-width: 330px; min-height: 100px;
+  }
+p, h1, ul, li{
+  color: #cdd6f4;
+}
+h2, h3{
+  font-size: 25px;
+  color: #cba6f7;
+}
+.solid{
+  border: 1px solid #7f849c;
+}
+a, a:hover, a:visited{
+  color:#89b4fa;
+}
+a:hover{
+  font-weight: bold;
+} 
+/* made by perilouh intended for perill6.nekoweb.org. feel free to take it, just dont be a jackass :p */
